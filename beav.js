@@ -1,3 +1,5 @@
+define([], function () {
+
 var Beav = new Object();
 
 
@@ -245,3 +247,6 @@ Beav.Task.scoreInterpolate = function(minScore, maxScore, minResult, maxResult, 
    return Math.round(minScore + (maxScore - minScore) * (result - minResult) / (maxResult - minResult));
 };
 
+
+return Beav;
+});

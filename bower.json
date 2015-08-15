@@ -1,0 +1,7 @@
+{
+  "name": "bebras-beavjs",
+  "version": "1.0",
+  "license": "MIT",
+  "ignore": ["**/.*"],
+  "main": "beav.js"
+}
